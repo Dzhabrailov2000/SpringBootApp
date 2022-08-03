@@ -1,6 +1,6 @@
-package web.service;
+package bootapp.service;
 
-import web.models.User;
+import bootapp.models.User;
 
 import java.util.List;
 

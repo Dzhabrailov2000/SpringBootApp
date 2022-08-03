@@ -1,6 +1,7 @@
-package web.models;
+package bootapp.models;
 
 import lombok.Data;
+
 import javax.persistence.*;
 import java.io.Serializable;
 

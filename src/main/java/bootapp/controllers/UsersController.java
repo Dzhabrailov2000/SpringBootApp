@@ -1,15 +1,16 @@
-package web.controllers;
+package bootapp.controllers;
 
+import bootapp.models.User;
+import bootapp.service.UserService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
-import web.models.User;
-import web.service.UserService;
+
 
 @Controller
 @RequestMapping("/users")
 public class UsersController {
-    private UserService userService;
+    private final UserService userService;
 
     public UsersController(UserService userService) {
         this.userService = userService;
